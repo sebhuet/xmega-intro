@@ -1,0 +1,6 @@
+<Project Device="ATxmega128A1" Caption="XMEGA-A1 Xplained demo application - Unknown Board - ATxmega128A1" Name="XMEGA_A1_XPLAINED_DEMO" File="xmega_applications_xmega_a1_xplained_demo_atxmega128a1_xmega_a1_xplained.zip" Description="Demo application for the XMEGA-A1 Xplained: a memory-game with sound effects.">
+	<Category Name="Category">
+		<Keyword Name="Applications"/>
+	</Category>
+	<Documentation Help="http://asf.atmel.com/docs/latest/xmega/applications/xmega_a1_xplained_demo/atxmega128a1_xmega_a1_xplained/doxygen/html/"/>
+</Project>
