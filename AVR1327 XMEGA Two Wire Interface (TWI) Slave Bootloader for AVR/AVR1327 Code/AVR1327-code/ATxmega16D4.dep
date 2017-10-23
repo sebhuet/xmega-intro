@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>644443339</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi-xmega.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\ccp.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\ATxmega16D4.dbg</file>
+      <file>$PROJ_DIR$\twi-xmega.c</file>
+      <file>$PROJ_DIR$\sp_driver.s90</file>
+      <file>$PROJ_DIR$\link_bootloader_16K.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\ccp.s</file>
+      <file>$PROJ_DIR$\Debug\Obj\sp_driver.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\twi-xmega.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-xmega-sf-n.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\ATxmega16D4.hex</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dlAVR-3s-xmega-sf-n.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stdint.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$TOOLKIT_DIR$\inc\Atmel\iomacro_xmega.h</file>
+      <file>$TOOLKIT_DIR$\inc\Atmel\ATxmega16D4.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ATxmega16D4.pbd</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioxm16d4.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\conf-twi.h</file>
+      <file>$PROJ_DIR$\ccp.h</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\sp_driver.h</file>
+      <file>$PROJ_DIR$\twi.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\ATxmega16D4.dbg</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 2 0 9 1 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\twi-xmega.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20 16 13 14 15 17 18 19 26 31 24 28 27 32 23 22 29 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 16 13 14 17 18 19 26 31 24 28 27 32 23 22 29 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sp_driver.s90</name>
+      <outputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 28 27 32 23 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ccp.s</name>
+      <outputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20 16 13 14 15 17 18 19 26 28 27 32 23 22 31 24 30 33 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 16 13 14 17 18 19 26 28 27 32 23 22 31 24 30 33 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\ATxmega16D4.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 7 10</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
